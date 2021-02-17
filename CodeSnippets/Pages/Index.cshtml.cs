@@ -22,7 +22,7 @@ namespace CodeSnippets.Pages
 
         public void OnGet()
         {
-
+            _config.GetValue<string>("Test:MyTest");
         }
     }
 }
